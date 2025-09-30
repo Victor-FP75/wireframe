@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color:  #000;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0 25px 0;
+}
+
+header>nav>ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+#logo{
+    width: 2%;
+}
+
+#lupa {
+    width: 2%;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    margin: 0 0 15px 0;
+}
+
+h3{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: blue;
+    border: none;
+}
+
+.AirPods{
+    text-align: center;
+    margin-top: 35px;
+    
+}
+
+.AirPods>h2{
+    margin-bottom: 25px;
+}
